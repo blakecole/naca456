@@ -1,0 +1,8 @@
+&NACA
+  profile = '63A',
+  camber = '6A',
+  toc = 0.17,
+  cl = 0.8,
+  dencode = 3,
+  name = 'NACA 63A817',
+/
