@@ -42,7 +42,7 @@ plot 'naca.gnu' with lines
 By default, gnuplot will expand the vertical scale to fit the screen; this is objectively annoying.<br>
 To plot the airfoil using normal proportions, you must use the ```set size ratio -1``` command.
 
-This repository contains a Python script (src/run_naca456) that facilitates airfoil generation by automating the following steps:
+This repository contains a Python wrapper called [run_naca456.py](src/run_naca456.py) that facilitates airfoil generation by automating the following steps:
 1. Create an input file based on user-specified airfoil parameters.
 2. Run **naca456**.
 3. Read the **naca456** output files.
