@@ -210,7 +210,7 @@ class NACA456:
             else:
                 plt.plot(x, yl, '-c', linewidth=0.8, label='Lower')
             plt.axis('equal')
-            plt.grid(ls=':', alpha=0.6)
+            plt.grid(alpha=0.4)
             plt.title(name)
             plt.xlabel('x/c')
             plt.ylabel('y/c')
@@ -232,8 +232,8 @@ if __name__ == "__main__":
     namelist = {
         'profile': '63A',
         'camber' : '6A',
-        'toc'    : 0.10,
-        'cl'     : 0.2,
+        'toc'    : 0.15,
+        'cl'     : 0.6,
         'dencode': 3
     }
 
