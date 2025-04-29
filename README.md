@@ -11,8 +11,7 @@ gfortran naca456.f90 -o naca456
 ```
 This will create a binary executable file called **naca456**.
 
-*Optional: once you have compiled the program, you may wish to create a symbolic link so that you can call it from any directory.<br>
-To do this, enter the following command (be sure the path points to wherever your executable binaries are stored):*
+*Optional: once you have compiled the program, you may wish to create a symbolic link so that you can call it from any directory.  To do this, enter the following command (be sure the path points to wherever your executable binaries are stored):*
 ```bash
 ln -s naca456 /usr/local/bin/naca456
 ```
