@@ -13,3 +13,10 @@
 
 # Ignore fortran compiled modules
 *.mod
+
+# Ignore output files
+*.nml
+*.out
+*.gnu
+*.dbg
+*.dat

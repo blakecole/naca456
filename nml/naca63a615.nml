@@ -1,6 +1,6 @@
 &NACA
   profile = '63A',
-  camber = '6A',
+  camber = '6M',
   toc = 0.15,
   cl = 0.6,
   dencode = 3,
